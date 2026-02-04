@@ -1,1 +1,11 @@
-/build/
+# ===== Runtime data (do NOT track) =====
+*.accdb
+*.laccdb
+*.csv
+
+# ===== Build output =====
+build/
+dist/
+
+# ===== NetBeans private =====
+nbproject/private/
