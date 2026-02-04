@@ -1,5 +1,6 @@
 # ===== Runtime data (do NOT track) =====
 *.accdb
+!database/students_template.accdb
 *.laccdb
 *.csv
 
