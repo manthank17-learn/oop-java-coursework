@@ -1,8 +1,9 @@
 # ===== Runtime data (do NOT track) =====
 *.accdb
-!database/students_template.accdb
 *.laccdb
 *.csv
+# BUT allow the template
+!database/students_template.accdb
 
 # ===== Build output =====
 build/
