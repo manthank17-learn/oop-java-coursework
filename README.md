@@ -18,8 +18,26 @@ The project includes:
 
 📁 Project Structure
 ====================
+```text
+src/
+└── oop/
+    └── java/
+        ├── GradingSystem.java
+        ├── AuctionSystem.java
+        ├── Vehicle.java
+        ├── Bidder.java
+        └── RegistrationForm.java
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   src/   └── oop/java/        GradingSystem.java        AuctionSystem.java        Vehicle.java        Bidder.java        RegistrationForm.java  database/   └── students_template.accdb  .gitignore  build.xml  manifest.mf  README.md   `
+database/
+└── students_template.accdb
+
+nbproject/
+
+build.xml
+manifest.mf
+.gitignore
+README.md
+```
 
 ✅ Question 1 – Console Applications
 ===================================
@@ -41,8 +59,9 @@ Features:
     
 
 Run:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   java oop.java.GradingSystem   `
+```text
+java oop.java.GradingSystem
+```
 
 Part B – Auction System
 -----------------------
@@ -61,8 +80,9 @@ Features:
     
 
 Run:
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   java oop.java.AuctionSystem   `
+```text
+java oop.java.AuctionSystem
+```
 
 ✅ Question 2 – Desktop Application (Swing)
 ==========================================
@@ -90,12 +110,14 @@ Features:
     
 
 Run (NetBeans recommended):
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   Run RegistrationForm.java   `
+```
+Run RegistrationForm.java
+```
 
 or
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   java oop.java.RegistrationForm   `
+```
+java oop.java.RegistrationForm
+```
 
 🗄 Database Setup (Important)
 =============================
@@ -117,7 +139,9 @@ To avoid committing runtime data, only a template database is provided.
 
 The app connects using a relative path:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   jdbc:ucanaccess://./students.accdb   `
+```
+jdbc:ucanaccess://./students.accdb
+```
 
 ⚙ Requirements
 ==============
@@ -154,5 +178,5 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 Author
 ======
-
+Manthan Kumar
 Student Coursework Submission – OOP Module
