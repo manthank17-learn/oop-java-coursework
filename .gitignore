@@ -3,7 +3,7 @@
 *.laccdb
 *.csv
 # BUT allow the template
-!database/students_template.accdb
+!databases/students_template.accdb
 
 # ===== Build output =====
 build/
